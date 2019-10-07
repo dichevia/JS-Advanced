@@ -8,6 +8,7 @@ function solve() {
       div.innerHTML = messageContent;
       div.className = "message my-message";
       document.querySelector("#chat_messages").appendChild(div);
+      
       document.querySelector("#chat_input").value = '';
    }
 }
